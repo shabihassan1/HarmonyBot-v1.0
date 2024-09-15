@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+datasets
+huggingface_hub
+markdown2
+requests
+jinja2

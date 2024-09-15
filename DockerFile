@@ -1,0 +1,25 @@
+# Use an official Python runtime as a parent image
+FROM python:3.11-slim
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the current directory contents into the container at /app
+COPY . /app
+
+# Create a cache directory and set permissions
+RUN mkdir -p /app/.cache && chmod -R 777 /app/.cache
+
+# Install any needed packages specified in requirements.txt
+RUN pip install --no-cache-dir -r Requirements.txt
+
+# Set the environment variable for Hugging Face cache location
+ENV HF_HOME=/app/.cache
+
+# Define environment variable for Flask app port (optional but not needed in HF Spaces)
+#ENV PORT=7680
+
+USER user
+
+# Run the application using Gunicorn
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]
