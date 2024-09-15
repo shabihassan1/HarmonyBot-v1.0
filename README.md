@@ -107,12 +107,13 @@ After installation, open the application in your browser, and start chatting wit
 The bot will respond based on relevant datasets and models.
 ## Technologies Used
 - **FastAPI**: For creating the web application interface.
-- **Hugging Face**: For model hosting and inference.
+- **Hugging Face**: For model hosting and inference, using the **Meta-Llama 3-8B** model to generate AI responses. Hugging Face’s serverless API handles interactions with this model in a scalable, cost-efficient way.
 - **Hugging Face Spaces**: A platform for hosting and sharing machine learning applications, using Docker for containerization, allowing the chatbot to run seamlessly on the web.
 - **Docker**: To Containerize the application,ensuring that it runs consistently across different environments. Hugging Face Spaces leverages Docker to build and deploy the application in a fully isolated environment.
 - **Uvicorn**: An ASGI server for asynchronous request handling, used with FastAPI to provide high-performance asynchronous processing.
 - **Markdown2**: For rendering the AI-generated text into a readable HTML format.
 - **Hugging Face Datasets**: The chatbot leverages two key datasets to answer medical and mental health-related queries.
+**Languages Used**: Python (backend), JavaScript (frontend interactivity), HTML (structure), and CSS (styling).
 
 
 ## License
