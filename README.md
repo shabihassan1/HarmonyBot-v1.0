@@ -4,7 +4,7 @@
 
 ## Features
 
-- **Conversational AI**: Powered by the Meta LLaMA-3-8B model to provide coherent and context-aware conversations.
+- **Conversational AI**: Powered by the Meta-Llama-3-8B-Instruct model to provide coherent and context-aware conversations.
 - **Contextual Understanding**: Detects keywords related to mental health and medical inquiries to generate relevant and informed responses.
 - **Rich Markdown Support**: Outputs are rendered using Markdown for better readability.
 - **Hugging Face Integration**: Built using Hugging Face's Inference API for seamless integration with state-of-the-art NLP models.
@@ -105,11 +105,26 @@ After installation, open the application in your browser, and start chatting wit
 - _"What are the symptoms of the flu?"_
 
 The bot will respond based on relevant datasets and models.
+
+## How It Works
+
+HarmonyBot uses two datasets:
+
+- **avaliev/chat_doctor**: Focused on medical questions and answers between patients and doctors.
+- **Amod/mental_health_counseling_conversations**: A mental health dataset to help guide users dealing with mental health challenges.
+
+Upon receiving a user input, the bot:
+
+1. Identifies the type of inquiry (mental health or medical) using keyword analysis.
+2. Selects a relevant context from the dataset.
+3. Uses this context to craft a prompt and generate a meaningful response via the **Meta-Llama-3-8B-Instruct** model.
+
+
 ## Technologies Used
 - **FastAPI**: For creating the web application interface.
 - **Hugging Face**: For model hosting and inference, using the **Meta-Llama 3-8B** model to generate AI responses. Hugging Face’s serverless API handles interactions with this model in a scalable, cost-efficient way.
 - **Hugging Face Spaces**: A platform for hosting and sharing machine learning applications, using Docker for containerization, allowing the chatbot to run seamlessly on the web.
-- **Docker**: To Containerize the application,ensuring that it runs consistently across different environments. Hugging Face Spaces leverages Docker to build and deploy the application in a fully isolated environment.
+- **Docker**: To Containerize the application, ensuring that it runs consistently across different environments. Hugging Face Spaces leverages Docker to build and deploy the application in a fully isolated environment.
 - **Uvicorn**: An ASGI server for asynchronous request handling, used with FastAPI to provide high-performance asynchronous processing.
 - **Markdown2**: For rendering the AI-generated text into a readable HTML format.
 - **Hugging Face Datasets**: The chatbot leverages two key datasets to answer medical and mental health-related queries.
