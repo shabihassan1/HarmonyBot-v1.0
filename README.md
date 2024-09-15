@@ -145,6 +145,7 @@ This project was a collaborative effort by a group of passionate developers and 
 
 Together, we aimed to create a user-centric solution that leverages AI to improve access to medical and mental health advice. We are proud of this journey and excited about its potential impact!
 
+## Supervisor
 We worked under the insightful supervision of **Dr. Mehreen Alam**, whose guidance and support were invaluable throughout the development process.  
    [LinkedIn](https://www.linkedin.com/in/dr-mehreen-alam-5a1b9720/)
 
