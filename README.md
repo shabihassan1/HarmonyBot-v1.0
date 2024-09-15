@@ -25,7 +25,7 @@ Check out the live demo of the Harmony Bot here: [Harmony Bot on Hugging Face Sp
 ├── Dockerfile                # Docker configuration for deploying the app
 ├── README.md                 # Project documentation
 ├── Requirements.txt          # Python dependencies
-└── .gitignore                # Git ignore configuration
+
 ```
 
 ## Requirements
