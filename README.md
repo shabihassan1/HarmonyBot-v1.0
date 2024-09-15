@@ -153,7 +153,7 @@ We worked under the insightful supervision of **Dr. Mehreen Alam**, whose guidan
 
 Here is a quick demonstration of how HarmonyBot works:
 
-[![HarmonyBot Video Demonstration](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://youtu.be/w5FbRiV-Vs4))
+[![HarmonyBot Video Demonstration](https://img.youtube.com/vi/w5FbRiV-Vs4.jpg)](https://youtu.be/w5FbRiV-Vs4)
 
 Click the image above to watch the video.
 
