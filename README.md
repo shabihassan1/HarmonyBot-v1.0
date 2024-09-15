@@ -18,7 +18,7 @@ Check out the live demo of the Harmony Bot here: [Harmony Bot on Hugging Face Sp
 ## Project Structure
 
 ```bash
-.
+
 ├── static/                   # Static files (background images, scripts, CSS)
 ├── templates/                # HTML templates for the front-end interface
 ├── application.py            # FastAPI application for backend logic
@@ -37,7 +37,7 @@ Check out the live demo of the Harmony Bot here: [Harmony Bot on Hugging Face Sp
   - `Amod/mental_health_counseling_conversations`
 - **FastAPI**, **uvicorn**
 - **Markdown2** for rendering responses
-- Other libraries as specified in `requirements.txt`
+- Other libraries as specified in `Requirements.txt`
 
 ## Installation
 
