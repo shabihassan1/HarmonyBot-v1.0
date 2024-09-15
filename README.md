@@ -149,6 +149,14 @@ Together, we aimed to create a user-centric solution that leverages AI to improv
 
 We worked under the insightful supervision of **Dr. Mehreen Alam**, whose guidance and support were invaluable throughout the development process.  [LinkedIn](https://www.linkedin.com/in/dr-mehreen-alam-5a1b9720/)
 
+## Video Demonstration
+
+Here is a quick demonstration of how HarmonyBot works:
+
+[![HarmonyBot Video Demonstration](https://img.youtube.com/vi/YOUR_VIDEO_ID/0.jpg)]([https://www.youtube.com/watch?v=YOUR_VIDEO_ID](https://youtu.be/w5FbRiV-Vs4))
+
+Click the image above to watch the video.
+
 
 ## License
 
