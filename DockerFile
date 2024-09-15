@@ -16,10 +16,9 @@ RUN pip install --no-cache-dir -r Requirements.txt
 # Set the environment variable for Hugging Face cache location
 ENV HF_HOME=/app/.cache
 
-# Define environment variable for Flask app port (optional but not needed in HF Spaces)
 #ENV PORT=7680
 
 USER user
 
-# Run the application using Gunicorn
+# Run the application using Unicorn
 CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "7860"]
