@@ -130,6 +130,21 @@ Upon receiving a user input, the bot:
 - **Hugging Face Datasets**: The chatbot leverages two key datasets to answer medical and mental health-related queries.
 **Languages Used**: Python (backend), JavaScript (frontend interactivity), HTML (structure), and CSS (styling).
 
+## Group Members
+
+This project was a collaborative effort by a group of passionate developers and AI enthusiasts. Meet the team behind HarmonyBot:
+
+1. **Shabi ul Hassan**  
+   [LinkedIn](https://www.linkedin.com/in/shabi-ul-hassan1/)  
+
+2. **Abdullah Salman**  
+   [LinkedIn](https://www.linkedin.com/in/abdullah-salman-89253b272/)  
+
+3. **Nouman Hafeez**  
+   [LinkedIn](https://www.linkedin.com/in/noumanhafeez11nh/)  
+
+Together, we aimed to create a user-centric solution that leverages AI to improve access to medical and mental health advice. We are proud of this journey and excited about its potential impact!
+
 
 ## License
 
